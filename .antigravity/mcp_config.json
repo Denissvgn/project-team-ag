@@ -1,0 +1,34 @@
+{
+    "mcpServers": {
+        "project-manager": {
+            "command": "python3",
+            "args": [
+                "./mcp-servers/pm_server.py"
+            ],
+            "env": {}
+        },
+        "gantt-tools": {
+            "command": "python3",
+            "args": [
+                "./mcp-servers/gantt_server.py"
+            ],
+            "env": {}
+        },
+        "git-flow": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-git"
+            ],
+            "env": {}
+        },
+        "context7": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@upstash/context7-mcp@latest"
+            ],
+            "env": {}
+        }
+    }
+}

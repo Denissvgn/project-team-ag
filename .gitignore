@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Antigravity/Agent State
+.context/
+.antigravity/settings.json
+
+# OS
+.DS_Store
